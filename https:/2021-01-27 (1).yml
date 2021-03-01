@@ -1,0 +1,398 @@
+﻿port: 7890
+socks-port: 7891
+allow-lan: false
+ipv6: false
+mode: Rule
+log-level: silent
+
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  nameserver:
+    - https://dns.aa.net.uk/dns-query
+    - https://dns.arapurayil.com/dns-query
+    - https://dns1.ryan-palmer.com/dns-query
+    - https://doh-2.seby.io:443/dns-query
+    - https://dns.nextdns.io/dnscrypt-proxy
+    - https://doh.libredns.gr/dns-query
+    - https://dnsforge.de/dns-query
+    - https://dns.alidns.com/dns-query
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.dnshome.de/dns-query
+    - https://doh.pi-dns.com/dns-query
+    - https://dns.quad9.net/dns-query
+    - https://dnses.alekberg.net/dns-query
+    - tls://dns.quad9.net:853
+    - tls://cloudflare-dns.com:853
+    - tls://dns.google:853
+    - tls://dot.xfinity.com:853
+    - tls://dns.aa.net.uk:853
+    - tls://dns.quad9.net:853
+    - tls://dot.libredns.gr:853
+    - tls://185.253.154.66:4343
+    - tls://116.202.176.26:853
+  fallback:
+    - https://dns.aa.net.uk/dns-query
+    - https://dns.arapurayil.com/dns-query
+    - https://dns1.ryan-palmer.com/dns-query
+    - https://doh-2.seby.io:443/dns-query
+    - https://dns.nextdns.io/dnscrypt-proxy
+    - https://doh.libredns.gr/dns-query
+    - https://dnsforge.de/dns-query
+    - https://dns.alidns.com/dns-query
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.dnshome.de/dns-query
+    - https://doh.pi-dns.com/dns-query
+    - https://dns.quad9.net/dns-query
+    - https://dnses.alekberg.net/dns-query
+    - tls://dns.quad9.net:853
+    - tls://cloudflare-dns.com:853
+    - tls://dns.google:853
+    - tls://dot.xfinity.com:853
+    - tls://dns.aa.net.uk:853
+    - tls://dns.quad9.net:853
+    - tls://dot.libredns.gr:853
+    - tls://185.253.154.66:4343
+    - tls://116.202.176.26:853
+proxies:
+  - {name: Argentina🇦🇷-❇️TG:@baipiaolianmeng, server: 91.206.168.3, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Australia2🇦🇺-❇️TG:@baipiaolianmeng, server: 45.248.79.21, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Australia3🇦🇺-❇️TG:@baipiaolianmeng, server: 144.48.39.123, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Australia4🇦🇺-❇️TG:@baipiaolianmeng, server: 45.125.247.197, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Australia5🇦🇺-❇️TG:@baipiaolianmeng, server: 103.192.80.131, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Australia🇦🇺-❇️TG:@baipiaolianmeng, server: 124.150.139.125, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Austria🇦🇹-❇️TG:@baipiaolianmeng, server: 37.120.212.75, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Belgium🇧🇪-❇️TG:@baipiaolianmeng, server: 185.104.186.77, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Bosnia🇧🇦-❇️TG:@baipiaolianmeng, server: 185.212.111.6, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Brazil🇧🇷-❇️TG:@baipiaolianmeng, server: 191.96.13.41, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Bulgaria🇧🇬-❇️TG:@baipiaolianmeng, server: 37.120.152.37, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Canada2🇨🇦-❇️TG:@baipiaolianmeng, server: 162.253.71.211, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Canada3🇨🇦-❇️TG:@baipiaolianmeng, server: 172.83.40.147, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Canada🇨🇦-❇️TG:@baipiaolianmeng, server: 198.8.85.170, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Chile🇨🇱-❇️TG:@baipiaolianmeng, server: 31.169.121.3, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Colombia🇨🇴-❇️TG:@baipiaolianmeng, server: 45.129.32.20, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Costa Rica🇨🇷-❇️TG:@baipiaolianmeng, server: 176.227.241.24, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Croatia🇭🇷-❇️TG:@baipiaolianmeng, server: 85.10.50.164, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Cyprus🇨🇾-❇️TG:@baipiaolianmeng, server: 195.47.194.40, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Czechia🇨🇿-❇️TG:@baipiaolianmeng, server: 217.138.220.155, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Denmark🇩🇰-❇️TG:@baipiaolianmeng, server: 193.29.107.221, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Estonia🇪🇪-❇️TG:@baipiaolianmeng, server: 165.231.163.7, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Finland🇫🇮-❇️TG:@baipiaolianmeng, server: 196.244.191.43, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: France2🇫🇷-❇️TG:@baipiaolianmeng, server: 185.108.106.186, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: France3🇫🇷-❇️TG:@baipiaolianmeng, server: 185.166.84.61, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: France🇫🇷-❇️TG:@baipiaolianmeng, server: 143.244.57.117, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Germany2🇩🇪-❇️TG:@baipiaolianmeng, server: 193.29.106.157, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Germany3🇩🇪-❇️TG:@baipiaolianmeng, server: 95.111.253.63, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Germany4🇩🇪-❇️TG:@baipiaolianmeng, server: 178.238.231.55, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Germany🇩🇪-❇️TG:@baipiaolianmeng, server: 37.120.196.171, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Greece🇬🇷-❇️TG:@baipiaolianmeng, server: 194.150.167.36, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Hong Kong🇭🇰-❇️TG:@baipiaolianmeng, server: 84.17.57.148, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Hungary🇭🇺-❇️TG:@baipiaolianmeng, server: 37.120.144.245, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Iceland🇮🇸-❇️TG:@baipiaolianmeng, server: 82.221.128.169, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: India2🇮🇳-❇️TG:@baipiaolianmeng, server: 103.39.132.189, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: India3🇮🇳-❇️TG:@baipiaolianmeng, server: 103.94.27.101, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: India🇮🇳-❇️TG:@baipiaolianmeng, server: 103.156.51.68, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Indonesia🇮🇩-❇️TG:@baipiaolianmeng, server: 103.120.66.229, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Ireland🇮🇪-❇️TG:@baipiaolianmeng, server: 5.157.13.99, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Israel🇮🇱-❇️TG:@baipiaolianmeng, server: 87.239.255.111, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Italy2🇮🇹-❇️TG:@baipiaolianmeng, server: 37.120.207.5, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Italy🇮🇹-❇️TG:@baipiaolianmeng, server: 212.102.54.152, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Japan🇯🇵-❇️TG:@baipiaolianmeng, server: 45.87.213.7, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Kazakhstan🇰🇿-❇️TG:@baipiaolianmeng, server: 95.57.207.200, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Korea🇰🇷-❇️TG:@baipiaolianmeng, server: 45.130.137.12, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Latvia🇱🇻-❇️TG:@baipiaolianmeng, server: 188.92.78.140, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Libya🇱🇾-❇️TG:@baipiaolianmeng, server: 41.208.72.157, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Luxembourg🇱🇺-❇️TG:@baipiaolianmeng, server: 185.153.151.60, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Macedonia🇲🇰-❇️TG:@baipiaolianmeng, server: 185.225.28.245, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Malaysia🇲🇾-❇️TG:@baipiaolianmeng, server: 42.0.30.177, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Mexico🇲🇽-❇️TG:@baipiaolianmeng, server: 194.41.112.26, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Moldova🇲🇩-❇️TG:@baipiaolianmeng, server: 178.175.128.237, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Netherlands🇳🇱-❇️TG:@baipiaolianmeng, server: 89.187.174.231, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: New Zealand🇳🇿-❇️TG:@baipiaolianmeng, server: 180.149.231.45, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Nigeria🇳🇬-❇️TG:@baipiaolianmeng, server: 102.165.23.4, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Norway🇳🇴-❇️TG:@baipiaolianmeng, server: 45.12.223.213, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Paraguay🇵🇾-❇️TG:@baipiaolianmeng, server: 181.40.18.59, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Philippines🇵🇭-❇️TG:@baipiaolianmeng, server: 45.134.224.8, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Poland2🇵🇱-❇️TG:@baipiaolianmeng, server: 5.253.206.67, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Poland🇵🇱-❇️TG:@baipiaolianmeng, server: 178.255.44.69, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Portugal2🇵🇹-❇️TG:@baipiaolianmeng, server: 91.205.230.160, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Portugal3🇵🇹-❇️TG:@baipiaolianmeng, server: 176.61.146.121, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Portugal🇵🇹-❇️TG:@baipiaolianmeng, server: 194.39.127.38, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Romania🇷🇴-❇️TG:@baipiaolianmeng, server: 185.102.217.165, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Russian🇷🇺-❇️TG:@baipiaolianmeng, server: 185.246.88.103, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Serbia🇷🇸-❇️TG:@baipiaolianmeng, server: 152.89.160.215, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Singapore🇸🇬-❇️TG:@baipiaolianmeng, server: 89.187.163.212, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Slovakia🇸🇰-❇️TG:@baipiaolianmeng, server: 185.76.8.215, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Slovenia🇸🇮-❇️TG:@baipiaolianmeng, server: 195.158.249.42, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: South Africa🇿🇦-❇️TG:@baipiaolianmeng, server: 154.16.93.51, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Spain2🇪🇸-❇️TG:@baipiaolianmeng, server: 188.208.141.18, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Spain3🇪🇸-❇️TG:@baipiaolianmeng, server: 185.153.150.48, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Spain🇪🇸-❇️TG:@baipiaolianmeng, server: 185.188.61.41, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Sweden🇸🇪-❇️TG:@baipiaolianmeng, server: 185.76.9.46, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Switzerland🇨🇭-❇️TG:@baipiaolianmeng, server: 84.39.112.35, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Taiwan🇹🇼-❇️TG:@baipiaolianmeng, server: 103.152.151.69, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Thailand🇹🇭-❇️TG:@baipiaolianmeng, server: 103.253.74.7, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Turkey2🇹🇷-❇️TG:@baipiaolianmeng, server: 185.195.79.19, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Turkey🇹🇷-❇️TG:@baipiaolianmeng, server: 107.150.95.147, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Ukraine🇺🇦-❇️TG:@baipiaolianmeng, server: 176.107.185.73, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: United Arab🇦🇪-❇️TG:@baipiaolianmeng, server: 176.125.231.29, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: United Kingdom2🇬🇧-❇️TG:@baipiaolianmeng, server: 86.106.136.77, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: United Kingdom3🇬🇧-❇️TG:@baipiaolianmeng, server: 185.108.105.18, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: United Kingdom🇬🇧-❇️TG:@baipiaolianmeng, server: 86.106.157.246, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: United States10🇺🇸-❇️TG:@baipiaolianmeng, server: 198.147.22.85, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: United States11🇺🇸-❇️TG:@baipiaolianmeng, server: 172.83.42.19, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: United States12🇺🇸-❇️TG:@baipiaolianmeng, server: 174.128.245.147, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: United States13🇺🇸-❇️TG:@baipiaolianmeng, server: 209.216.92.5, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: United States14🇺🇸-❇️TG:@baipiaolianmeng, server: 63.141.248.179, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: United States15🇺🇸-❇️TG:@baipiaolianmeng, server: 66.115.177.158, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: United States16🇺🇸-❇️TG:@baipiaolianmeng, server: 148.72.174.43, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: United States17🇺🇸-❇️TG:@baipiaolianmeng, server: 198.8.80.85, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: United States18🇺🇸-❇️TG:@baipiaolianmeng, server: 104.200.131.229, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: United States19🇺🇸-❇️TG:@baipiaolianmeng, server: 154.16.168.188, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: United States20🇺🇸-❇️TG:@baipiaolianmeng, server: 199.58.187.3, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: United States21🇺🇸-❇️TG:@baipiaolianmeng, server: 199.10.64.181, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: United States22🇺🇸-❇️TG:@baipiaolianmeng, server: 107.181.166.83, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: United States23🇺🇸-❇️TG:@baipiaolianmeng, server: 185.242.5.213, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: United States24🇺🇸-❇️TG:@baipiaolianmeng, server: 192.111.134.207, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: United States2🇺🇸-❇️TG:@baipiaolianmeng, server: 173.237.207.13, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: United States3🇺🇸-❇️TG:@baipiaolianmeng, server: 199.36.221.119, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: United States4🇺🇸-❇️TG:@baipiaolianmeng, server: 64.44.42.194, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: United States5🇺🇸-❇️TG:@baipiaolianmeng, server: 104.244.210.125, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: United States6🇺🇸-❇️TG:@baipiaolianmeng, server: 23.82.11.49, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: United States7🇺🇸-❇️TG:@baipiaolianmeng, server: 184.170.250.154, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: United States8🇺🇸-❇️TG:@baipiaolianmeng, server: 192.154.253.69, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: United States9🇺🇸-❇️TG:@baipiaolianmeng, server: 66.115.175.35, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: United States🇺🇸-❇️TG:@baipiaolianmeng, server: 154.16.169.5, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Viet Nam 🇻🇳-❇️TG:@baipiaolianmeng, server: 202.143.110.29, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+proxy-groups:
+  - name: "⤵️SELECT"
+    type: select
+    proxies:
+      - 🔄AUTOSELECT
+      - Argentina🇦🇷-❇️TG:@baipiaolianmeng
+      - Australia2🇦🇺-❇️TG:@baipiaolianmeng
+      - Australia3🇦🇺-❇️TG:@baipiaolianmeng
+      - Australia4🇦🇺-❇️TG:@baipiaolianmeng
+      - Australia5🇦🇺-❇️TG:@baipiaolianmeng
+      - Australia🇦🇺-❇️TG:@baipiaolianmeng
+      - Austria🇦🇹-❇️TG:@baipiaolianmeng
+      - Belgium🇧🇪-❇️TG:@baipiaolianmeng
+      - Bosnia🇧🇦-❇️TG:@baipiaolianmeng
+      - Brazil🇧🇷-❇️TG:@baipiaolianmeng
+      - Bulgaria🇧🇬-❇️TG:@baipiaolianmeng
+      - Canada2🇨🇦-❇️TG:@baipiaolianmeng
+      - Canada3🇨🇦-❇️TG:@baipiaolianmeng
+      - Canada🇨🇦-❇️TG:@baipiaolianmeng
+      - Chile🇨🇱-❇️TG:@baipiaolianmeng
+      - Colombia🇨🇴-❇️TG:@baipiaolianmeng
+      - Costa Rica🇨🇷-❇️TG:@baipiaolianmeng
+      - Croatia🇭🇷-❇️TG:@baipiaolianmeng
+      - Cyprus🇨🇾-❇️TG:@baipiaolianmeng
+      - Czechia🇨🇿-❇️TG:@baipiaolianmeng
+      - Denmark🇩🇰-❇️TG:@baipiaolianmeng
+      - Estonia🇪🇪-❇️TG:@baipiaolianmeng
+      - Finland🇫🇮-❇️TG:@baipiaolianmeng
+      - France2🇫🇷-❇️TG:@baipiaolianmeng
+      - France3🇫🇷-❇️TG:@baipiaolianmeng
+      - France🇫🇷-❇️TG:@baipiaolianmeng
+      - Germany2🇩🇪-❇️TG:@baipiaolianmeng
+      - Germany3🇩🇪-❇️TG:@baipiaolianmeng
+      - Germany4🇩🇪-❇️TG:@baipiaolianmeng
+      - Germany🇩🇪-❇️TG:@baipiaolianmeng
+      - Greece🇬🇷-❇️TG:@baipiaolianmeng
+      - Hong Kong🇭🇰-❇️TG:@baipiaolianmeng
+      - Hungary🇭🇺-❇️TG:@baipiaolianmeng
+      - Iceland🇮🇸-❇️TG:@baipiaolianmeng
+      - India2🇮🇳-❇️TG:@baipiaolianmeng
+      - India3🇮🇳-❇️TG:@baipiaolianmeng
+      - India🇮🇳-❇️TG:@baipiaolianmeng
+      - Indonesia🇮🇩-❇️TG:@baipiaolianmeng
+      - Ireland🇮🇪-❇️TG:@baipiaolianmeng
+      - Israel🇮🇱-❇️TG:@baipiaolianmeng
+      - Italy2🇮🇹-❇️TG:@baipiaolianmeng
+      - Italy🇮🇹-❇️TG:@baipiaolianmeng
+      - Japan🇯🇵-❇️TG:@baipiaolianmeng
+      - Kazakhstan🇰🇿-❇️TG:@baipiaolianmeng
+      - Korea🇰🇷-❇️TG:@baipiaolianmeng
+      - Latvia🇱🇻-❇️TG:@baipiaolianmeng
+      - Libya🇱🇾-❇️TG:@baipiaolianmeng
+      - Luxembourg🇱🇺-❇️TG:@baipiaolianmeng
+      - Macedonia🇲🇰-❇️TG:@baipiaolianmeng
+      - Malaysia🇲🇾-❇️TG:@baipiaolianmeng
+      - Mexico🇲🇽-❇️TG:@baipiaolianmeng
+      - Moldova🇲🇩-❇️TG:@baipiaolianmeng
+      - Netherlands🇳🇱-❇️TG:@baipiaolianmeng
+      - New Zealand🇳🇿-❇️TG:@baipiaolianmeng
+      - Nigeria🇳🇬-❇️TG:@baipiaolianmeng
+      - Norway🇳🇴-❇️TG:@baipiaolianmeng
+      - Paraguay🇵🇾-❇️TG:@baipiaolianmeng
+      - Philippines🇵🇭-❇️TG:@baipiaolianmeng
+      - Poland2🇵🇱-❇️TG:@baipiaolianmeng
+      - Poland🇵🇱-❇️TG:@baipiaolianmeng
+      - Portugal2🇵🇹-❇️TG:@baipiaolianmeng
+      - Portugal3🇵🇹-❇️TG:@baipiaolianmeng
+      - Portugal🇵🇹-❇️TG:@baipiaolianmeng
+      - Romania🇷🇴-❇️TG:@baipiaolianmeng
+      - Russian🇷🇺-❇️TG:@baipiaolianmeng
+      - Serbia🇷🇸-❇️TG:@baipiaolianmeng
+      - Singapore🇸🇬-❇️TG:@baipiaolianmeng
+      - Slovakia🇸🇰-❇️TG:@baipiaolianmeng
+      - Slovenia🇸🇮-❇️TG:@baipiaolianmeng
+      - South Africa🇿🇦-❇️TG:@baipiaolianmeng
+      - Spain2🇪🇸-❇️TG:@baipiaolianmeng
+      - Spain3🇪🇸-❇️TG:@baipiaolianmeng
+      - Spain🇪🇸-❇️TG:@baipiaolianmeng
+      - Sweden🇸🇪-❇️TG:@baipiaolianmeng
+      - Switzerland🇨🇭-❇️TG:@baipiaolianmeng
+      - Taiwan🇹🇼-❇️TG:@baipiaolianmeng
+      - Thailand🇹🇭-❇️TG:@baipiaolianmeng
+      - Turkey2🇹🇷-❇️TG:@baipiaolianmeng
+      - Turkey🇹🇷-❇️TG:@baipiaolianmeng
+      - Ukraine🇺🇦-❇️TG:@baipiaolianmeng
+      - United Arab🇦🇪-❇️TG:@baipiaolianmeng
+      - United Kingdom2🇬🇧-❇️TG:@baipiaolianmeng
+      - United Kingdom3🇬🇧-❇️TG:@baipiaolianmeng
+      - United Kingdom🇬🇧-❇️TG:@baipiaolianmeng
+      - United States10🇺🇸-❇️TG:@baipiaolianmeng
+      - United States11🇺🇸-❇️TG:@baipiaolianmeng
+      - United States12🇺🇸-❇️TG:@baipiaolianmeng
+      - United States13🇺🇸-❇️TG:@baipiaolianmeng
+      - United States14🇺🇸-❇️TG:@baipiaolianmeng
+      - United States15🇺🇸-❇️TG:@baipiaolianmeng
+      - United States16🇺🇸-❇️TG:@baipiaolianmeng
+      - United States17🇺🇸-❇️TG:@baipiaolianmeng
+      - United States18🇺🇸-❇️TG:@baipiaolianmeng
+      - United States19🇺🇸-❇️TG:@baipiaolianmeng
+      - United States20🇺🇸-❇️TG:@baipiaolianmeng
+      - United States21🇺🇸-❇️TG:@baipiaolianmeng
+      - United States22🇺🇸-❇️TG:@baipiaolianmeng
+      - United States23🇺🇸-❇️TG:@baipiaolianmeng
+      - United States24🇺🇸-❇️TG:@baipiaolianmeng
+      - United States2🇺🇸-❇️TG:@baipiaolianmeng
+      - United States3🇺🇸-❇️TG:@baipiaolianmeng
+      - United States4🇺🇸-❇️TG:@baipiaolianmeng
+      - United States5🇺🇸-❇️TG:@baipiaolianmeng
+      - United States6🇺🇸-❇️TG:@baipiaolianmeng
+      - United States7🇺🇸-❇️TG:@baipiaolianmeng
+      - United States8🇺🇸-❇️TG:@baipiaolianmeng
+      - United States9🇺🇸-❇️TG:@baipiaolianmeng
+      - United States🇺🇸-❇️TG:@baipiaolianmeng
+      - Viet Nam 🇻🇳-❇️TG:@baipiaolianmeng
+  - name: 🔄AUTOSELECT
+    type: url-test
+    url: https://www.google.com
+    interval: 300
+    proxies:
+      - Argentina🇦🇷-❇️TG:@baipiaolianmeng
+      - Australia2🇦🇺-❇️TG:@baipiaolianmeng
+      - Australia3🇦🇺-❇️TG:@baipiaolianmeng
+      - Australia4🇦🇺-❇️TG:@baipiaolianmeng
+      - Australia5🇦🇺-❇️TG:@baipiaolianmeng
+      - Australia🇦🇺-❇️TG:@baipiaolianmeng
+      - Austria🇦🇹-❇️TG:@baipiaolianmeng
+      - Belgium🇧🇪-❇️TG:@baipiaolianmeng
+      - Bosnia🇧🇦-❇️TG:@baipiaolianmeng
+      - Brazil🇧🇷-❇️TG:@baipiaolianmeng
+      - Bulgaria🇧🇬-❇️TG:@baipiaolianmeng
+      - Canada2🇨🇦-❇️TG:@baipiaolianmeng
+      - Canada3🇨🇦-❇️TG:@baipiaolianmeng
+      - Canada🇨🇦-❇️TG:@baipiaolianmeng
+      - Chile🇨🇱-❇️TG:@baipiaolianmeng
+      - Colombia🇨🇴-❇️TG:@baipiaolianmeng
+      - Costa Rica🇨🇷-❇️TG:@baipiaolianmeng
+      - Croatia🇭🇷-❇️TG:@baipiaolianmeng
+      - Cyprus🇨🇾-❇️TG:@baipiaolianmeng
+      - Czechia🇨🇿-❇️TG:@baipiaolianmeng
+      - Denmark🇩🇰-❇️TG:@baipiaolianmeng
+      - Estonia🇪🇪-❇️TG:@baipiaolianmeng
+      - Finland🇫🇮-❇️TG:@baipiaolianmeng
+      - France2🇫🇷-❇️TG:@baipiaolianmeng
+      - France3🇫🇷-❇️TG:@baipiaolianmeng
+      - France🇫🇷-❇️TG:@baipiaolianmeng
+      - Germany2🇩🇪-❇️TG:@baipiaolianmeng
+      - Germany3🇩🇪-❇️TG:@baipiaolianmeng
+      - Germany4🇩🇪-❇️TG:@baipiaolianmeng
+      - Germany🇩🇪-❇️TG:@baipiaolianmeng
+      - Greece🇬🇷-❇️TG:@baipiaolianmeng
+      - Hong Kong🇭🇰-❇️TG:@baipiaolianmeng
+      - Hungary🇭🇺-❇️TG:@baipiaolianmeng
+      - Iceland🇮🇸-❇️TG:@baipiaolianmeng
+      - India2🇮🇳-❇️TG:@baipiaolianmeng
+      - India3🇮🇳-❇️TG:@baipiaolianmeng
+      - India🇮🇳-❇️TG:@baipiaolianmeng
+      - Indonesia🇮🇩-❇️TG:@baipiaolianmeng
+      - Ireland🇮🇪-❇️TG:@baipiaolianmeng
+      - Israel🇮🇱-❇️TG:@baipiaolianmeng
+      - Italy2🇮🇹-❇️TG:@baipiaolianmeng
+      - Italy🇮🇹-❇️TG:@baipiaolianmeng
+      - Japan🇯🇵-❇️TG:@baipiaolianmeng
+      - Kazakhstan🇰🇿-❇️TG:@baipiaolianmeng
+      - Korea🇰🇷-❇️TG:@baipiaolianmeng
+      - Latvia🇱🇻-❇️TG:@baipiaolianmeng
+      - Libya🇱🇾-❇️TG:@baipiaolianmeng
+      - Luxembourg🇱🇺-❇️TG:@baipiaolianmeng
+      - Macedonia🇲🇰-❇️TG:@baipiaolianmeng
+      - Malaysia🇲🇾-❇️TG:@baipiaolianmeng
+      - Mexico🇲🇽-❇️TG:@baipiaolianmeng
+      - Moldova🇲🇩-❇️TG:@baipiaolianmeng
+      - Netherlands🇳🇱-❇️TG:@baipiaolianmeng
+      - New Zealand🇳🇿-❇️TG:@baipiaolianmeng
+      - Nigeria🇳🇬-❇️TG:@baipiaolianmeng
+      - Norway🇳🇴-❇️TG:@baipiaolianmeng
+      - Paraguay🇵🇾-❇️TG:@baipiaolianmeng
+      - Philippines🇵🇭-❇️TG:@baipiaolianmeng
+      - Poland2🇵🇱-❇️TG:@baipiaolianmeng
+      - Poland🇵🇱-❇️TG:@baipiaolianmeng
+      - Portugal2🇵🇹-❇️TG:@baipiaolianmeng
+      - Portugal3🇵🇹-❇️TG:@baipiaolianmeng
+      - Portugal🇵🇹-❇️TG:@baipiaolianmeng
+      - Romania🇷🇴-❇️TG:@baipiaolianmeng
+      - Russian🇷🇺-❇️TG:@baipiaolianmeng
+      - Serbia🇷🇸-❇️TG:@baipiaolianmeng
+      - Singapore🇸🇬-❇️TG:@baipiaolianmeng
+      - Slovakia🇸🇰-❇️TG:@baipiaolianmeng
+      - Slovenia🇸🇮-❇️TG:@baipiaolianmeng
+      - South Africa🇿🇦-❇️TG:@baipiaolianmeng
+      - Spain2🇪🇸-❇️TG:@baipiaolianmeng
+      - Spain3🇪🇸-❇️TG:@baipiaolianmeng
+      - Spain🇪🇸-❇️TG:@baipiaolianmeng
+      - Sweden🇸🇪-❇️TG:@baipiaolianmeng
+      - Switzerland🇨🇭-❇️TG:@baipiaolianmeng
+      - Taiwan🇹🇼-❇️TG:@baipiaolianmeng
+      - Thailand🇹🇭-❇️TG:@baipiaolianmeng
+      - Turkey2🇹🇷-❇️TG:@baipiaolianmeng
+      - Turkey🇹🇷-❇️TG:@baipiaolianmeng
+      - Ukraine🇺🇦-❇️TG:@baipiaolianmeng
+      - United Arab🇦🇪-❇️TG:@baipiaolianmeng
+      - United Kingdom2🇬🇧-❇️TG:@baipiaolianmeng
+      - United Kingdom3🇬🇧-❇️TG:@baipiaolianmeng
+      - United Kingdom🇬🇧-❇️TG:@baipiaolianmeng
+      - United States10🇺🇸-❇️TG:@baipiaolianmeng
+      - United States11🇺🇸-❇️TG:@baipiaolianmeng
+      - United States12🇺🇸-❇️TG:@baipiaolianmeng
+      - United States13🇺🇸-❇️TG:@baipiaolianmeng
+      - United States14🇺🇸-❇️TG:@baipiaolianmeng
+      - United States15🇺🇸-❇️TG:@baipiaolianmeng
+      - United States16🇺🇸-❇️TG:@baipiaolianmeng
+      - United States17🇺🇸-❇️TG:@baipiaolianmeng
+      - United States18🇺🇸-❇️TG:@baipiaolianmeng
+      - United States19🇺🇸-❇️TG:@baipiaolianmeng
+      - United States20🇺🇸-❇️TG:@baipiaolianmeng
+      - United States21🇺🇸-❇️TG:@baipiaolianmeng
+      - United States22🇺🇸-❇️TG:@baipiaolianmeng
+      - United States23🇺🇸-❇️TG:@baipiaolianmeng
+      - United States24🇺🇸-❇️TG:@baipiaolianmeng
+      - United States2🇺🇸-❇️TG:@baipiaolianmeng
+      - United States3🇺🇸-❇️TG:@baipiaolianmeng
+      - United States4🇺🇸-❇️TG:@baipiaolianmeng
+      - United States5🇺🇸-❇️TG:@baipiaolianmeng
+      - United States6🇺🇸-❇️TG:@baipiaolianmeng
+      - United States7🇺🇸-❇️TG:@baipiaolianmeng
+      - United States8🇺🇸-❇️TG:@baipiaolianmeng
+      - United States9🇺🇸-❇️TG:@baipiaolianmeng
+      - United States🇺🇸-❇️TG:@baipiaolianmeng
+      - Viet Nam 🇻🇳-❇️TG:@baipiaolianmeng
+rules:
+ - MATCH,🔄AUTOSELECT,⤵️SELECT

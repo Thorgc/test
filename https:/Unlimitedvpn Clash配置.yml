@@ -1,0 +1,73 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+proxies:
+  - {name: 🇩🇪 Germany-1, server: 185.137.138.26, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 Germany-2, server: 193.108.116.70, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 Germany-3, server: ip176.ip-54-37-206.eu, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 Germany-4, server: ip210.ip-51-195-13.eu, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 Germany, server: 165.231.67.3, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 Germany-5, server: srv10224.dus4.dedicated.server-hosting.expert, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 Germany-6, server: 193.108.116.119, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 Germany-7, server: 193.108.116.97, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 Germany-8, server: 91.239.157.4, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇺🇸 USA, server: 162.251.61.221, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇬🇧 United-Kingdom-1, server: 89.34.96.63, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇬🇧 United-Kingdom-2, server: 89.34.96.59, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇬🇧 United-Kingdom-3, server: 89.34.96.57, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇫🇷 France-1, server: 51.159.19.148, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇫🇷 France-2, server: 163.172.110.119, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇫🇷 France-3, server: 163.172.110.53, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇫🇷 France-4, server: 51.210.113.68, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇫🇷 France-5, server: 163.172.65.156, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇫🇷 France-6, server: 51.178.133.154, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇫🇷 France-7, server: 163.172.110.147, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇫🇷 France-8, server: 5.135.108.239, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  
+proxy-groups:
+  - name: ðŸ”° Select
+    type: select
+    proxies:
+      - 🇩🇪 Germany-1
+      - 🇩🇪 Germany-2
+      - 🇩🇪 Germany-3
+      - 🇩🇪 Germany-4
+      - 🇩🇪 Germany
+      - 🇩🇪 Germany-5
+      - 🇩🇪 Germany-6
+      - 🇩🇪 Germany-7
+      - 🇩🇪 Germany-8
+      - 🇺🇸 USA
+      - 🇬🇧 United-Kingdom-1
+      - 🇬🇧 United-Kingdom-2
+      - 🇬🇧 United-Kingdom-3
+      - 🇫🇷 France-1
+      - 🇫🇷 France-2
+      - 🇫🇷 France-3
+      - 🇫🇷 France-4
+      - 🇫🇷 France-5
+      - 🇫🇷 France-6
+      - 🇫🇷 France-7
+      - 🇫🇷 France-8
+    url: https://www.google.com/
+    interval: 300
+
+
+rules:
+  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+  - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+  - IP-CIDR6,::1/128,DIRECT,no-resolve
+  - IP-CIDR6,fc00::/7,DIRECT,no-resolve
+  - IP-CIDR6,fe80::/10,DIRECT,no-resolve
+  - IP-CIDR6,fd00::/8,DIRECT,no-resolve
+  - DOMAIN-SUFFIX,ad.com,REJECT
+  - SRC-IP-CIDR,192.168.1.201/32,DIRECT
+  - GEOIP,IR,DIRECT
+  - MATCH,,ðŸ”° Select,dns-failed
+
